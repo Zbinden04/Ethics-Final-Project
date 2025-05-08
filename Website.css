@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	font-family: Verdana, sans-serif;
+	color: #242626;
+	background-color: rgb(70, 119, 136);
+    border: 2px solid powderblue;
+    padding: 30px;
+    margin: 100px;
+}
+
+h2 {
+	color: rgb(28, 222, 161);
+    margin: 20px;
+
+}
