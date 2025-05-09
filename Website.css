@@ -4,6 +4,11 @@ body {
 	font-family: Verdana, sans-serif;
 	color: #242626;
 	background-color: rgb(70, 119, 136);
+
+}
+
+h1 {
+    text-align: center;
     border: 2px solid powderblue;
     padding: 30px;
     margin: 100px;
@@ -12,5 +17,6 @@ body {
 h2 {
 	color: rgb(28, 222, 161);
     margin: 20px;
+    border-bottom-style: dotted;
 
 }
