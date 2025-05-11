@@ -7,18 +7,43 @@
 </head>
 <body>
 <h1>Copyright and Workers Protections From AI: Guidelines</h1>
-<h2>The Problem</h2>
-<p>
-Insert stuff about that here idk lollll
-</p>
-<h2>What has been done?</h2>
-<p>
-Insert stuff about that as wellll    
-</p>
-<h2>What still needs to be done?</h2>
-<p>
-Another thing omg
-</p>
+
+<h6>
+<p>Click each block to learn more!</p>
+
+<button type="button" class="collapsible">The Problem</button>
+<div class="content">
+  <p>Insert stuff about that here idk lollll</p>
+</div>
+
+<button type="button" class="collapsible">What Has Been Done?</button>
+<div class="content">
+  <p>Insert stuff about that here idk lollll</p>
+</div>
+
+<button type="button" class="collapsible">What Still Needs to Be Done?</button>
+<div class="content">
+  <p>Insert stuff about that here idk lollll</p>
+</div>
+
+</h6>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
 
 </body>
 </html>
