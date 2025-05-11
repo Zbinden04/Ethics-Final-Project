@@ -2,7 +2,7 @@
 /* CSS Document */
 body {
 	font-family: Verdana, sans-serif;
-	color: teal;
+    color: rgb(0, 160, 160);
 	background-color: ivory;
 
 }
@@ -24,7 +24,7 @@ h6 {
 .collapsible {
     background-color: white;
     font-family: Verdana, sans-serif;
-    color: teal;
+    color: rgb(0, 160, 160);
     text-align: center;
     cursor: pointer;
     padding: 15px;
