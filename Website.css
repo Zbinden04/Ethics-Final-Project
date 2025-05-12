@@ -67,7 +67,16 @@ footer {
 }
 
 .content {
+    background-color: white;
     display: none;
+    text-align: start;
+    font-size: 14px;
+    color: slategray;
+    padding: 12px;
+    margin: 12px auto;
+    max-width: 800px;
+    box-sizing: border-box;
+    border: 1px solid slategray;
 }
 
 .active, .collapsible:hover {
